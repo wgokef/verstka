@@ -1,0 +1,38 @@
+.wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+.ad {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #ffff;
+    background-color: #ff9500;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 8px; //было для закругленных краев
+}
+
+.header {
+    display: flex; //выровнять по горизонтали
+    justify-content: space-between; // по бокам прижать
+    padding: 10px 66px;
+
+    &-nav{
+        display: flex;
+
+        &-link{
+
+            &-li{
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 150%;
+                color: #262626;
+                text-decoration: none; // убрать нижнее подчеркивание у ссылок а
+                
+
+            }
+        }
+    }
+}
